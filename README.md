@@ -21,6 +21,6 @@
         port: 5432 // Add your database port here - Example: 5432.
     };
 ```
-5. Después de toda la configuración, estás listo para abrir tu consola favorita y realizar el comando ```npm start``` o ```node index``` para comenzar la aplicación, deberías ver la siguiente imagen de inicio: ![Welcome Screen](https://github.com/Franxcode/desafio-always-music/blob/master/assets/img/welcome_screen.PNG?raw=true)
+5. Después de toda la configuración, estás listo para abrir tu consola favorita y realizar el comando ```npm start``` o ```node index``` para comenzar a disfrutar de la aplicación, deberías ver la siguiente imagen de inicio: ![Welcome Screen](https://github.com/Franxcode/desafio-always-music/blob/master/assets/img/welcome_screen.PNG?raw=true)
 
 <hr/>
