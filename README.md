@@ -11,7 +11,7 @@
         nivel INT NOT NULL
     ); 
 ```
-4. Asegurate que en el constructor de la clase Queries en el archivo ```queries.js```, asegurarte que la configuración corresponde a la de tu base de datos.
+4. Asegúrate que en el constructor de la ```clase Queries``` en el archivo ```queries.js```, tenga la configuración correspondiente a la de tu base de datos.
 ```
     this.config = {
         user: 'postgres', // Add your database user here - Example: postgres.
@@ -21,6 +21,6 @@
         port: 5432 // Add your database port here - Example: 5432.
     };
 ```
-5. Después de toda la configuración, estás listo para abrir tu consola favorita y realizar el comando ```npm start``` o ```node index``` para comenzar la aplicación, deberías ver la siguiente imagen de inicio: ![Welcome Screen](assets\img\welcome_screen.PNG)
+5. Después de toda la configuración, estás listo para abrir tu consola favorita y realizar el comando ```npm start``` o ```node index``` para comenzar la aplicación, deberías ver la siguiente imagen de inicio: ![Welcome Screen](https://github.com/Franxcode/desafio-always-music/blob/master/assets/img/welcome_screen.PNG?raw=true)
 
 <hr/>
