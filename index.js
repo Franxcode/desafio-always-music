@@ -7,7 +7,7 @@ const { inquirerMenu,
 		leerInputEliminarInformacionEstudiante,
 		confirmar} = require("./helpers/inquirer");
 
-const { mostrarBienvenida, pausa, mostrarSalida } = require("./helpers/mensajes");
+const { mostrarBienvenida, mostrarSalida, pausa } = require("./helpers/mensajes");
 const Queries = require("./models/queries");
 
 const main = async () => {
