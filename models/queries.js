@@ -4,26 +4,16 @@ const { Transform } = require('stream');
 require('colors');
 const { Client } = require('pg');
 
-/*
-Used postgresql.
-CREATE TABLE usuarios(
-    id SERIAL PRIMARY KEY,
-    nombre VARCHAR(64) NOT NULL,
-    rut VARCHAR(12) UNIQUE NOT NULL,
-    curso VARCHAR(32) NOT NULL,
-    nivel INT NOT NULL
-); 
-*/
 class Queries{
 
     constructor(){
 
         this.config = {
-            user: 'postgres', // Add your database user here.
-            host: 'localhost', // Add your database host here.
-            database: 'alwaysmusic', // Add your own database here.
-            password: '0000', // Add your database password here.
-            port: 5432 // This is default port, in case you are not using default, add your database port here.
+            user: 'postgres',
+            host: 'localhost',
+            database: 'alwaysmusic',
+            password: '0000',
+            port: 5432
         };
 
         this.client = new Client( this.config );
